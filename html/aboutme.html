@@ -10,17 +10,21 @@
         });
     </script> 
 
-    <title>Edwin Mui</title>
+    <title>About Me</title>
 </head>
+
+<header>
+    <div id="nav-container"></div>
+    <script>
+        $(function () {
+            $("#nav-container").load("nav.html");
+        });
+    </script>
+</header>
 
 <body>
     <div id="main-wrapper">
         <div id="nav-container"></div>
-        <script>
-            $(function () {
-                $("#nav-container").load("nav.html");
-            });
-        </script>
         <p>This is Edwin's website.</p>
 
     </div>

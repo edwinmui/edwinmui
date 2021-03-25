@@ -4,23 +4,27 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <div id="head-content"></div>
-    <script> 
-        $(function(){
-          $("#head-content").load("/html/head.html"); 
+    <script>
+        $(function () {
+            $("#head-content").load("/html/head.html");
         });
-    </script> 
+    </script>
 
-    <title>Edwin Mui</title>
+    <title>Contact</title>
 </head>
+
+<header>
+    <div id="nav-container"></div>
+    <script>
+        $(function () {
+            $("#nav-container").load("nav.html");
+        });
+    </script>
+</header>
 
 <body>
     <div id="main-wrapper">
-        <div id="nav-container"></div>
-        <script>
-            $(function () {
-                $("#nav-container").load("nav.html");
-            });
-        </script>
+
         <p>This is Edwin's website.</p>
 
     </div>

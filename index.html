@@ -4,26 +4,48 @@
 <head>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <div id="head-content"></div>
-    <script> 
-        $(function(){
-          $("#head-content").load("/html/head.html"); 
+    <script>
+        $(function() {
+            $("#head-content").load("/html/head.html");
         });
-    </script> 
+    </script>
 
     <title>Edwin Mui</title>
 </head>
 
+<header>
+    <div id="nav-container"></div>
+    <script>
+        $(function() {
+            $("#nav-container").load("nav.html");
+        });
+    </script>
+</header>
+
+<header>
+    <div id="nav-container"></div>
+    <script>
+        $(function() {
+            $("#nav-container").load("indexnav.html");
+        });
+    </script>
+</header>
+
 <body>
     <div id="main-wrapper">
         <div id="nav-container"></div>
-        <script>
-            $(function () {
-                $("#nav-container").load("indexnav.html");
-            });
-        </script>
         <p>This is Edwin's website.</p>
 
     </div>
 </body>
+
+<footer>
+    <div id="footer-content"></div>
+    <script>
+        $(function() {
+            $("#footer-content").load("html/footer.html");
+        });
+    </script>
+</footer>
 
 </html>
