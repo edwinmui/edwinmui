@@ -106,13 +106,13 @@ header {
 
 footer {
     text-align: center;
-    padding: 3px;
+    /*padding: 3px;*/
     background-color: var(--slate);
-    color: #ffffff;
+    color: var(--white);
 }
 
 footer>p>a {
-    color: #ffffff;
+    color:#FFB7FF;
 }
 
 .main-content {
