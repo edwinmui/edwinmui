@@ -1,6 +1,9 @@
 :root {
     --googblue: #4C8BF5;
     --white: #ffffff;
+    --space: #383961;
+    --slate: #5F758E;
+    --spring: #DBDFAC;
 }
 
 html,
@@ -72,6 +75,7 @@ header {
     display: block;
     right: 0;
     top: 0;
+    transition: 0.5s
 }
 
 
@@ -103,6 +107,75 @@ header {
 footer {
     text-align: center;
     padding: 3px;
-    background-color: DarkSalmon;
-    color: white;
+    background-color: var(--slate);
+    color: #ffffff;
+}
+
+footer>p>a {
+    color: #ffffff;
+}
+
+.main-content {
+    color: var(--spring);
+    background: var(--space);
+    padding: 1.5rem;
+    margin: 3rem 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.index-main-content {
+    line-height: 1.5rem;
+    color: var(--spring);
+    background: var(--space);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+}
+
+.main-content>h1 {
+    font-size: 2rem;
+}
+
+.sub-content {
+    line-height: 1.5rem;
+    color: var(--spring);
+    background: var(--space);
+    padding: 1.5rem;
+    margin: 1rem 1rem;
+    border-radius: 1rem;
+}
+
+.sub-content>strong {
+    font-size: 1.5em;
+}
+
+.sub-content>a {
+    color: #ffffff;
+}
+
+.collage-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    /* This is better for small screens, once min() is better supported */
+    /* grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr)); */
+    grid-gap: 1rem;
+    /* This is the standardized property now, but has slightly less support */
+    /* gap: 1rem */
+}
+
+.collage-grid>div {
+    color: var(--spring);
+    background: var(--space);
+    padding: 1.5rem;
+    border-radius: 1rem;
+}
+
+.gallery>img {
+    object-fit: cover;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 250px auto 250px;
+    grid-gap: 1em;
 }
