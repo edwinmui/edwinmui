@@ -14,7 +14,9 @@
     -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Include code for favicon image, three stylesheets, Google Font, and responsive meta tags. -->
+    <script src="../js/nav.js"></script>
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Link the style sheets and Google font -->
     <link rel="stylesheet" type="text/css" href="../css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
@@ -28,22 +30,32 @@
 </head>
 
 <header>
-    <img src="images/edwinmuilogo.png " alt="edwin 's logo">
-    <div class="topnav">
-        <a href="index.html">Home</a>
+    <div class="topnav ">
+        <a href="index.html ">
+            <img alt="logo " src="../images/edwinmuilogo.png "
+            width=70" height="70">
+    </a>
+    <!-- Navigation links (hidden by default) -->
+    <div id="myLinks">
         <a href="aboutme.html">About Me</a>
         <a href="pastwork.html">Past Work</a>
         <a class="focus" href="contact.html">Contact</a>
     </div>
 
-</header>
-
-<body>
-    <div id="main-wrapper">
-
-        <p>This is Edwin's website.</p>
-
+    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
     </div>
+
+    </header>
+
+    <body>
+        <div id="main-wrapper">
+
+            <p>This is Edwin's website.</p>
+
+        </div>
     </body>
 
     <footer>
