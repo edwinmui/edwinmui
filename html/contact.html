@@ -51,10 +51,33 @@
     </header>
 
     <body>
-        <div id="main-wrapper">
+        <div class="main-content">
+            <h1>Contact</h1>
+            <p>Feel free to drop your contact info if you want to connect!
+            </p>
+        </div>
+        <div class="contact-form">
+            <form action="action_page.php">
 
-            <p>This is Edwin's website.</p>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                <label for="major">Major</label>
+                <select id="major" name="major">
+                <option value="si">SI</option>
+                <option value="cs">CS</option>
+                <option value="other">Other</option>
+              </select>
+
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                <input type="submit" value="Submit">
+
+            </form>
         </div>
     </body>
 
