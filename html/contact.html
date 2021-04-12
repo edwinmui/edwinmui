@@ -21,7 +21,6 @@
     <link rel="stylesheet" type="text/css" href="../css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="shortcut icon" type="image/png" href="images/logo_icon.png" />
-    <link href="<link rel=" preconnect " href="https://fonts.gstatic.com ">
     <link rel="preconnect " href="https://fonts.gstatic.com ">
     <link rel="preconnect " href="https://fonts.gstatic.com ">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap " rel="stylesheet ">
@@ -30,29 +29,33 @@
 </head>
 
 <header>
+    <a class="skip-to-content" href="#main">
+        Skip to content
+    </a>
     <div class="topnav ">
         <a href="index.html ">
             <img alt="logo " src="../images/edwinmuilogo.png "
             width=70" height="70">
     </a>
-    <!-- Navigation links (hidden by default) -->
-    <div id="myLinks">
-        <a href="aboutme.html">About Me</a>
-        <a href="pastwork.html">Past Work</a>
-        <a class="focus" href="contact.html">Contact</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+            <a href="aboutme.html">About Me</a>
+            <a href="pastwork.html">Past Work</a>
+            <a class="focus" href="contact.html">Contact</a>
+        </div>
+
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
 
-    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
-    </div>
-
-    </header>
+</header>
 
 <main>
+
     <body>
-        <div class="main-content">
+        <div id="main" class="main-content">
             <h1>Contact</h1>
             <p>Feel free to drop your contact info if you want to connect!
             </p>
@@ -83,8 +86,8 @@
     </body>
 </main>
 
-    <footer>
-        <!--
+<footer>
+    <!--
             this is footer jquery
             <div id="footer-content"></div>
         <script>
@@ -93,9 +96,9 @@
             });
         </script>
         -->
-        <p>Edwin Mui</p>
-        <p><a href="mailto: edwinmui@umich.edu">edwinmui@umich.edu</a>
-        </p>
-    </footer>
+    <p>Edwin Mui</p>
+    <p><a href="mailto: edwinmui@umich.edu">edwinmui@umich.edu</a>
+    </p>
+</footer>
 
 </html>
