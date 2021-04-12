@@ -1,5 +1,5 @@
 ### Hi there 👋
-#### My name is Edwin Mui, currently a student at the University of Michigan studying Information/Computer Science and minoring Business. I am graduating in May 2022. Snoop around my github to see some of the aweosme projects I've worked/am working on!
+#### My name is Edwin Mui, currently a student at the University of Michigan studying Information/Computer Science and minoring Business. I am graduating in May 2022. Snoop around my github to see some of the awesome projects I've worked/am working on!
 
 <!--
 **edwinmui/edwinmui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
