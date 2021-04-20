@@ -195,7 +195,9 @@ footer>p>a {
     border-radius: 1rem;
 }
 
-.gallery>img {
+.gallery img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
