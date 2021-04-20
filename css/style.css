@@ -178,6 +178,10 @@ footer>p>a {
     color: #ffffff;
 }
 
+.sub-content>img {
+    object-fit: cover;
+}
+
 .collage-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
