@@ -23,7 +23,10 @@ header {
 
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
     align-items: center;
 }
 
@@ -178,7 +181,19 @@ footer>p>a {
     color: #ffffff;
 }
 
-.sub-content>img {
+#index-photo {
+    color: var(--spring);
+    background: var(--space);
+    max-width: 70%;
+    line-height: 1.5rem;
+    padding: 1.5rem;
+    margin: 0.5rem;
+    border-radius: 1rem;
+}
+
+#index-photo img {
+    width: 100%;
+    height: 100%;
     object-fit: cover;
 }
 
@@ -276,6 +291,9 @@ input[type=submit]:hover {
     .main-content {
         max-width: 80%;
     }
+    #index-photo {
+        max-width: 40%;
+    }
     .grid {
         grid-template-columns: 350px auto;
     }
@@ -310,6 +328,9 @@ input[type=submit]:hover {
 /* Desktop responsive design */
 
 @media only screen and (min-width: 768px) {
+    #index-photo {
+        max-width: 30%;
+    }
     .topnav {
         display: flex;
         justify-content: flex-end;
