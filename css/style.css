@@ -9,12 +9,33 @@
 html,
 body {
     background-repeat: no-repeat;
-    background-position-x: center;
-    background: url("../images/hdcomputerbackground.jpg") no-repeat;
+    background: url("../images/hdcomputerbackground.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    background-position-x: center;
     font-family: 'Montserrat', sans-serif;
     height: 90%;
     width: 100%;
+}
+
+.parallax {
+    background-image: url("../images/hdcomputerbackground.jpg");
+    min-height: 150px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("../images/backgrounddesert.png");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 header {
@@ -146,7 +167,7 @@ footer>p>a {
     background: var(--space);
     max-width: 70%;
     padding: 1.5rem;
-    margin: 1rem 1rem 0.5rem;
+    margin: 0.5rem;
     border-radius: 1rem;
 }
 
@@ -189,6 +210,23 @@ footer>p>a {
     padding: 1.5rem;
     margin: 0.5rem;
     border-radius: 1rem;
+}
+
+#index-photo img:hover {
+    animation-name: gallery-animation;
+    animation-fill-mode: forwards;
+    animation-duration: 0.25s;
+}
+
+@keyframes gallery-animation {
+    from {
+        width: 100%;
+        height: 100%;
+    }
+    to {
+        width: 103%;
+        height: 103%;
+    }
 }
 
 #index-photo img {
@@ -240,27 +278,20 @@ input[type=text],
 select,
 textarea {
     width: 100%;
-    /* Full width */
     padding: 12px;
-    /* Some padding */
     border: 1px solid #ccc;
-    /* Gray border */
     border-radius: 4px;
-    /* Rounded borders */
     box-sizing: border-box;
-    /* Make sure that padding and width stays in place */
     margin-top: 6px;
-    /* Add a top margin */
     margin-bottom: 16px;
-    /* Bottom margin */
-    resize: vertical/* Allow the user to vertically resize the textarea (not horizontally) */
+    resize: vertical
 }
 
 
-/* Style the submit button with a specific background color etc */
+/* For background of submit button*/
 
 input[type=submit] {
-    background-color: #4CAF50;
+    background-color: var(--slate);
     color: white;
     padding: 12px 20px;
     border: none;
@@ -272,7 +303,7 @@ input[type=submit] {
 /* When moving the mouse over the submit button, add a darker green color */
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #c8ff00;
 }
 
 
@@ -355,5 +386,18 @@ input[type=submit]:hover {
         padding-right: 10px;
         padding-left: 10px;
         transition: 0.5s
+    }
+}
+
+
+/* For reduced motion */
+
+@media screen and (prefers-reduced-motion: reduce) {
+    #index-photo img:hover {
+        animation: none;
+    }
+    .parallax,
+    .parallax2 {
+        background-attachment: scroll;
     }
 }
