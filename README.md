@@ -1,5 +1,11 @@
 ### Hi there 👋
-#### My name is Edwin Mui, currently a student at the University of Michigan studying Information/Computer Science and minoring Business. I am graduating in May 2022. Snoop around my github to see some of the awesome projects I've worked/am working on!
+#### Hello! I'm Edwin. I am currently a software engineer at Credera, where I get to solve exciting problems every day. I have a firm interest in leveraging the power of computers to build solutions that aren't possible otherwise. I graduated from the University of Michigan in 2022 where I studied Information Science, Computer Science, and Business. 
+
+#### Create value, work with amazing people, and be the best. My mission is to always leave things better than how I found them.
+
+#### When I'm not working, I like to work on side projects. I am a big fragrance collector, and am currently working on a fragrance exchange startup. I also like to DJ, with EDM being my favorite genre. You can catch me DJ'ing for my friends at our next hangout.
+
+#### Anyway, I love meeting new people and would love to meet and get to know you. Please reach out if you'd like to have an interesting chat -- Cheers!
 
 <!--
 **edwinmui/edwinmui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
